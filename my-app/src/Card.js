@@ -2,16 +2,6 @@ import React from "react";
 import cardPhoto from './images/katie-zaferes.png';
 import starPhoto from './images/star.png';
 
-/*
-
-Notes:
-- Only render 1 instance (I already did this for you)
-
-    - star icon (star.png), rating, and review count
-    - title
-    - cost/person
-
-*/
 
 export default function Card() {
     return (

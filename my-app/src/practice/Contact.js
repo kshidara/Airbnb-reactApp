@@ -12,10 +12,16 @@ import React from "react"
 import Joke from "./Joke"
 
 export default function App() {
-    return (
-
+    
+        const colors = ["Red", "Orange", "Yellow", "Green", "Blue", "Indigo", "Violet"]    return (
         <div>
-            <Joke 
+            {colors}
+        </div>
+
+        )
+}
+
+            {/*<Joke 
                 setup="I got my daughter a fridge for her birthday." 
                 punchline="I can't wait to see her face light up when she opens it." 
                 isPun={true}
@@ -45,10 +51,4 @@ export default function App() {
                 punchline="I don't know, but the flag is a big plus!" 
                 isPun={true}
 
-            />
-
-
-        </div>
-
-        )
-}
+            />*/}

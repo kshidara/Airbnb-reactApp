@@ -29,34 +29,20 @@ export default function App() {
     )
 }
 
-            {/*<Joke 
-                setup="I got my daughter a fridge for her birthday." 
-                punchline="I can't wait to see her face light up when she opens it." 
-                isPun={true}
-                upvotes={10}
-                downvotes={2}
 
-            />
-            <Joke 
-                setup="How did the hacker escape the police?" 
-                punchline="He just ransomware!" 
-                isPun={true}
+// 1. What does the `.map()` array method do?
+// Returns a new array. Whatever gets returned from the callback
+// function provided is placed at the same index in the new array.
+// Usually we take the items from the original array and modify them
+// in some way.
 
-            />
-            <Joke 
-                setup="Why don't pirates travel on mountain roads?" 
-                punchline="Scurvy." 
-                isPun={true}
-            />
-            <Joke 
-                setup="Why do bees stay in the hive in the winter?" 
-                punchline="Swarm." 
-                isPun={true}
 
-            />
-            <Joke 
-                setup="What's the best thing about Switzerland?" 
-                punchline="I don't know, but the flag is a big plus!" 
-                isPun={true}
+// 2. What do we usually use `.map()` for in React?
+// Convert an array of raw data into an array of JSX elements
+// that can be displayed on the page.
 
-            />*/}
+
+// 3. Why is using `.map()` better than just creating the components
+//    manually by typing them out?
+// It makes our code more "self-sustaining" - not requiring
+// additional changes whenever the data changes.
